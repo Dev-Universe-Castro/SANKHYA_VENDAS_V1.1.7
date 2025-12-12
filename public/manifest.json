@@ -1,0 +1,58 @@
+
+{
+  "name": "Sankhya - Força de Vendas",
+  "short_name": "Sankhya",
+  "description": "Sistema de Força de Vendas com suporte offline completo",
+  "start_url": "/?standalone=true",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5DBF87",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity"],
+  "prefer_related_applications": false,
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Ir para o dashboard principal",
+      "url": "/dashboard",
+      "icons": [{ "src": "/1.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Leads",
+      "short_name": "Leads",
+      "description": "Gerenciar leads",
+      "url": "/dashboard/leads",
+      "icons": [{ "src": "/1.png", "sizes": "192x192" }]
+    }
+  ]
+}
